@@ -191,11 +191,11 @@ div.additional_food img:last-child {
     max-height: 100%;
 } */
 
-/* div.additonal_food#matcha {
+/* div.additonal_food#matcha_imgs {
     grid-template-rows: 1fr 1fr;
 }
 
-div.additional_food#matcha > img:first-child {
+div.additional_food#matcha_imgs > img:first-child {
     grid-row: 1 / span 2;
 }
 

@@ -7,7 +7,7 @@ addEventListener("load", function() {
 
 
     this.document.getElementById("draw_hazel").addEventListener("click", function() {
-        let img = document.querySelector("img#hazel");
+        let img = document.querySelector("img#hazel_img");
         ctx.drawImage(img, 0, 0, 600, 600);
         ctx.font = "60px Arial";
         ctx.fillStyle = "red";
@@ -16,7 +16,7 @@ addEventListener("load", function() {
     });
 
     this.document.getElementById("draw_biscuit").addEventListener("click", function() {
-        let img = document.querySelector("img#biscuit");
+        let img = document.querySelector("img#biscuit_img");
         ctx.drawImage(img, 0, 0, 800, 600);
         ctx.font = "60px Arial";
         ctx.fillStyle = "purple";
@@ -24,7 +24,7 @@ addEventListener("load", function() {
     });
 
     this.document.getElementById("draw_bacon").addEventListener("click", function() {
-        let img = document.querySelector("img#bacon");
+        let img = document.querySelector("img#bacon_img");
         ctx.drawImage(img, 0, 0, 600, 600);
         ctx.font = "60px Arial";
         ctx.fillStyle = "red";
@@ -32,7 +32,7 @@ addEventListener("load", function() {
     });
 
     this.document.getElementById("draw_bear").addEventListener("click", function() {
-        let img = document.querySelector("img#bear");
+        let img = document.querySelector("img#bear_img");
         ctx.drawImage(img, 0, 0, 600, 800);
         ctx.font = "60px Arial";
         ctx.fillStyle = "red";
@@ -40,7 +40,7 @@ addEventListener("load", function() {
     });
 
     this.document.getElementById("draw_millie").addEventListener("click", function() {
-        let img = document.querySelector("img#millie");
+        let img = document.querySelector("img#millie_img");
         ctx.drawImage(img, 0, 0, 600, 800);
         ctx.font = "60px Arial";
         ctx.fillStyle = "red";
@@ -48,7 +48,7 @@ addEventListener("load", function() {
     });
 
     this.document.getElementById("draw_molly").addEventListener("click", function() {
-        let img = document.querySelector("img#molly");
+        let img = document.querySelector("img#molly_img");
         ctx.drawImage(img, 0, 0, 600, 600);
         ctx.font = "60px Arial";
         ctx.fillStyle = "purple";
@@ -56,7 +56,7 @@ addEventListener("load", function() {
     });
 
     this.document.getElementById("draw_carter").addEventListener("click", function() {
-        let img = document.querySelector("img#carter");
+        let img = document.querySelector("img#carter_img");
         ctx.drawImage(img, 0, 0, 600, 600);
         ctx.font = "60px Arial";
         ctx.fillStyle = "red";

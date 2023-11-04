@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="dist/css/lightbox.css">
     <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="js/script.js"></script>
     <title>Pets</title>
 </head>
 <body class="pets">
@@ -36,7 +37,7 @@
         <div id="hazel">       
             <h2>Hazel</h2>
 
-            <img src="images/hazel.jpg" alt="Yellow Labrador retriever standing in front of a glass door." width="400" class="main">
+            <img src="images/hazel.jpg" alt="Yellow Labrador retriever standing in front of a glass door." width="400" class="main" id="hazel">
 
             <div class="pet_description">
                 <p>Hazel is a year-old yellow Labrador retriever that enjoys long walks 
@@ -93,7 +94,7 @@
         <div id="biscuit">
             <h2>Biscuit Dog</h2>
 
-            <img src="images/biscuit1.jpeg" alt="Shiba inu sitting in front of pond with stones in the background." width="400" class="main">
+            <img src="images/biscuit1.jpeg" alt="Shiba inu sitting in front of pond with stones in the background." width="400" class="main" id="biscuit">
 
             <p>Biscuit is a 2 year old shiba inu dog. Shiba inus are energetic and playful dogs. 
                 Biscuit enjoys running outside in circles and then laying down in the grass in the 
@@ -141,7 +142,7 @@
         <div id="bacon">
             <h2>Bacon</h2>
 
-            <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei" class="main">
+            <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei" class="main" id="bacon">
             
             
             <p>Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p>
@@ -184,7 +185,7 @@
         <div id="bear">
             <h2>Bear</h2>
 
-            <img src = "images/bear.JPG" alt="A fluffy black, white, and tan Shiba Inu with pointed ears named Bear." width="400" class="main">
+            <img src = "images/bear.JPG" alt="A fluffy black, white, and tan Shiba Inu with pointed ears named Bear." width="400" class="main" id="bear">
             
             
             <p>Bear is a lazy, food-loving dog that is sometimes playful. His favorite activity is lying in the sun on his side and lounging. He enjoys playing with his toys and loves to fetch them when you throw them, but eventually, he gets bored and just stops fetching them and lays down.</p>
@@ -221,7 +222,7 @@
 
             <h2>Millie</h2>
 
-            <img src="images/Millie.jpeg" alt="Millie a fluffy white dog with curly hair, medium to large size" width="400" class="main">
+            <img src="images/Millie.jpeg" alt="Millie a fluffy white dog with curly hair, medium to large size" width="400" class="main" id="millie">
 
             <p>Millie is an English Cream goldendoodle but sometimes is described as a human in a dog suit. 
                 She loves cuddles and can speak if you tell her to. She always wants to be around people and 
@@ -266,7 +267,7 @@
 
             <h2>Molly</h2>
 
-            <img src="images/molly_on_cabinet.JPG" alt="Calico cat with orange, white, and black coloring sitting on cabinet" width="400" class="main">
+            <img src="images/molly_on_cabinet.JPG" alt="Calico cat with orange, white, and black coloring sitting on cabinet" width="400" class="main" id="molly">
 
             <p>Molly is an 18 year old calico cat. She prefers spending her days lounging on the couch or 
                 curled up sleeping over a vent (or anything warm). Occasionally, she’ll go outside and 
@@ -311,7 +312,7 @@
         <div id="carter">
             <h2>Carter</h2>
 
-            <img src="images/carter.jpeg" alt="Carter is a husky with black, gray, and white fur." width="400" class="main">
+            <img src="images/carter.jpeg" alt="Carter is a husky with black, gray, and white fur." width="400" class="main" id="carter">
 
             <p>Carter was born in Seattle. However, my brother bought him and brought him to Boston. Whenever my brother 
                 did not have time to walk Carter, he would put him on the treadmill. When Carter became too much of a 
@@ -358,6 +359,31 @@
                 <li>Forest</li>
             </ul>
         </div>
+
+        <div class="draw">
+            <h2> Draw Your Favorite Pet </h2>
+            <canvas id="dogCanvas" width="600" height="600"></canvas>
+
+            <button id="draw_hazel">Hazel</button>
+            <button id="draw_biscuit">Biscuit Dog</button>
+            <button id="draw_bacon">Bacon</button>
+            <button id="draw_bear">Bear</button>
+            <button id="draw_millie">Millie</button>
+            <button id="draw_molly">Molly</button>
+            <button id="draw_carter">Carter</button>
+        </div>
+
+
+        <!-- <form>
+            <label><input type="radio" id="hazel" name="fav_pet" value="hazel">Hazel</label><br>
+            <label><input type="radio" id="biscuit" name="fav_pet" value="biscuit">Biscuit</label>
+            <label><input type="radio" id="hazel" name="fav_pet" value="hazel">Hazel</label>
+            <label><input type="radio" id="hazel" name="fav_pet" value="hazel">Hazel</label>
+            <label><input type="radio" id="hazel" name="fav_pet" value="hazel">Hazel</label>
+            <label><input type="radio" id="hazel" name="fav_pet" value="hazel">Hazel</label>
+            <label><input type="radio" id="hazel" name="fav_pet" value="hazel">Hazel</label>
+        </form> -->
+
     </main>
     
 </body>

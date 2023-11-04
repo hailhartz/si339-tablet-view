@@ -316,6 +316,26 @@ nav.inside_page {
     display: none;
 }
 
+button {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 40px;
+    color: black;
+}
+
+canvas {
+    display: block;
+    margin: 5px auto;
+    border: 5px solid lightseagreen;
+    border-radius: 20px;
+}
+
+div.draw {
+    display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .animation {
         animation: none;
@@ -405,6 +425,10 @@ nav.inside_page {
     a#skip {
         font-size: 30px;
         display: inline-block;
+    }
+
+    div.draw {
+        display: block;
     }
 
 }

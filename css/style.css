@@ -444,6 +444,11 @@ div.draw {
         margin-bottom: 30px;
     }
 
+    button:focus {
+        font-weight: bold;
+        border: 10px dashed lightseagreen;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {

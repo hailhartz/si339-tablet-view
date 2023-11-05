@@ -408,9 +408,14 @@ div.draw {
 
     div.travel_pics figure:last-child {
         grid-column: 1 / span 2;
+        display: block;
         width: 75%;
         height: 75%;
-        margin: auto;
+        margin: 5px auto;
+    }
+
+    div.travel_pics figure:last-child figcaption{
+        margin-bottom: 30px;
     }
 
     div#nice {
@@ -429,6 +434,14 @@ div.draw {
 
     div.draw {
         display: block;
+    }
+
+    .gif, .picture {
+        min-width: 50%;
+    }
+
+    div.travel_pics {
+        margin-bottom: 30px;
     }
 
 }
